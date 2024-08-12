@@ -6,7 +6,7 @@ export class AppService {
     return 'Hello World!';
   }
 
-  getToken(): string {
-    return 'my_secret_password';
+  main(): string {
+    return 'Main function triggered';
   }
 }
