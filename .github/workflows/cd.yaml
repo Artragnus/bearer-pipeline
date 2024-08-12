@@ -29,5 +29,5 @@ jobs:
         with:
           name: 'my-cloud-function'
           runtime: 'nodejs22'
-          entry_point: 'main'
-          source_dir: './dist'
+          entry_point: 'bootstrap'
+          source_dir: './dist/main'
