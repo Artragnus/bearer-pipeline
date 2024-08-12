@@ -6,8 +6,7 @@ export class AppService {
     return 'Hello World!';
   }
 
-  getToken(): string {
-    console.log(process.env.TOKEN);
-    return 'my_secret_password';
+  main(): string {
+    return 'Main function triggered';
   }
 }

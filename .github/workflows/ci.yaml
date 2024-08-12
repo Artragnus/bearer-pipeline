@@ -1,4 +1,4 @@
-name: Bearer PR Check
+name: CI
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  rule_check:
+  CI:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
