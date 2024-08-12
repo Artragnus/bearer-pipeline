@@ -7,6 +7,7 @@ export class AppService {
   }
 
   getToken(): string {
+    console.log(process.env.TOKEN);
     return 'my_secret_password';
   }
 }
